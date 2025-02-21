@@ -16,6 +16,11 @@ public class Practice1 {
 
         System.out.println("포트번호: "+url.substring(url.lastIndexOf(":")+1, url.indexOf(ctxPath))); // 8888
         System.out.println("서비스 mapping: "+url.substring(url.indexOf(ctxPath)+ctxPath.length())); // /signin.do
+        //주소값이 달라짐 == 새로운곳을 참조 == 기존에 참조하던건 GC가 언젠가 지움
+
+        System.out.println("=================================");
+
+
 
 
     }

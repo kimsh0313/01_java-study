@@ -14,15 +14,24 @@ public class Practice2 {
                         + "10,백년미가(유촌점),광주광역시 서구 유덕로28번길 18,062-946-3392,한상맛집,2022-01-11";
 
         String sarr[] = shopCsv.split("\n");
-        Shop []shops = new Shop[sarr.length];
+        Shop [] shops = new Shop[sarr.length];
 
-        for(String s : sarr){
-            System.out.println(s);
-            String asdf[] = s.split(",");
-            for(int i = 0; i<asdf.length; i++) {
-                shops[i] = new Shop(Integer.parseInt(asdf[0]), asdf[1], asdf[2], asdf[3], asdf[4], asdf[5]);
-            }
+        for (int i=0; i<shops.length; i++){
+            String[]  asdf = sarr[i].split(",");
+            shops[i] =new Shop(Integer.parseInt(asdf[0]), asdf[1], asdf[2], asdf[3], asdf[4], asdf[5]);
         }
+        for (Shop s : shops){
+            System.out.println(s);
+        }
+
+        //
+//        for(String s : sarr){
+//            System.out.println(s);
+//            String asdf[] = s.split(",");
+//            for(int i = 0; i<asdf.length; i++) {
+//                shops[i] = new Shop(Integer.parseInt(asdf[0]), asdf[1], asdf[2], asdf[3], asdf[4], asdf[5]);
+//            }
+//        }
 
 // 위와 같은 텍스트문자열(구조화되지 않은 문자열)을 구조화 시켜서 자바에서의 객체 형태로 관리할 수 있도록 변환해보기
 

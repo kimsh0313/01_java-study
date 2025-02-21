@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="514343fa-ad5c-40b4-b2b7-75a78d674694" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/practice1/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/practice1/dto/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/practice1/run/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section03/wrapper/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section03/wrapper/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section03/wrapper/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section4/date_calendar_time/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section4/date_calendar_time/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section4/date_calendar_time/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/section4/date_calendar_time/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_api/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10_api/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../10_api/src/main/java/com/sh/string/Practice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section07/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../section07/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tLDaBqUvyz6U5UvRp40Nlb0Y9N" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/workspaces/01_java-study/seongho-java-workspace/Homework_api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="514343fa-ad5c-40b4-b2b7-75a78d674694" name="변경" comment="" />
+      <created>1740122521331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740122521331</updated>
+      <workItem from="1740122522565" duration="556000" />
+      <workItem from="1740126934136" duration="1177000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
