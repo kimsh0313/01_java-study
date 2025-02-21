@@ -1,0 +1,15 @@
+package com.minkook.section03.example4;
+
+public class FoodManager {
+    /* 
+        내가 먹고싶은 음식 객체만 전달받는 메소드 구현
+        // food 타입으로 매개변수 설정시 -> Food를 상속받는 모든 음식객체들이 다 들어올수 있음
+     */
+    public void eat(Food food){
+
+    }
+    //Eatable 타입으로 매개변수
+    public void eat(Eatable food){
+        
+    }
+}
