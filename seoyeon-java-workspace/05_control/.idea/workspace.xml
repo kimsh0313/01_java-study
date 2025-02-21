@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="682ece7f-ee2e-43d1-a861-cdb2b0ca5f42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/practice1/dto/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/practice1/dto/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/practice1/dto/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/practice1/run/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/controller/ElectronicManager1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/controller/ElectronicManager1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/controller/ElectronicManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/controller/ElectronicManager2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/dto/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/dto/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/dto/Electronic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/dto/Electronic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/dto/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/dto/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/dto/Tablet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/dto/Tablet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/polymorphism/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/polymorphism/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/polymorphism/Child1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/polymorphism/Child1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/polymorphism/Child2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/polymorphism/Child2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/polymorphism/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/polymorphism/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section01/run/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section01/run/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/abstract_extends/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/abstract_extends/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/abstract_extends/BasketBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/abstract_extends/BasketBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/abstract_extends/FootBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/abstract_extends/FootBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/abstract_extends/Sports.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/abstract_extends/Sports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/example/dto/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/example/dto/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/example/dto/Assassin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/example/dto/Assassin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/example/dto/GameCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/example/dto/GameCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/example/dto/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/example/dto/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/example/dto/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/example/dto/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09_polymorphism/src/main/java/section02/example/run/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_polymorphism/src/main/java/com/podoseee/section02/example/run/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +173,7 @@
       <workItem from="1739362797298" duration="226000" />
       <workItem from="1739884924724" duration="897000" />
       <workItem from="1739887001751" duration="302000" />
+      <workItem from="1739951403624" duration="321000" />
     </task>
     <servers />
   </component>

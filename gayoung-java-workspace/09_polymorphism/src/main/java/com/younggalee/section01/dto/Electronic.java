@@ -1,0 +1,50 @@
+package com.younggalee.section01.dto;
+
+public class Electronic {
+    private String brand;
+    private String name;
+    private int price;
+
+    public Electronic(){ }
+
+    public Electronic(String brand, String name, int price) {
+        this.brand = brand;
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+
+    // toString도 제너레이터에 자동완성 있음 ******************
+    @Override
+    public String toString() {
+        return "Electronic{" +
+                "brand='" + brand + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+}

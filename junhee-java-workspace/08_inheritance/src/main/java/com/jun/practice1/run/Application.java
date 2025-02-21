@@ -22,7 +22,7 @@ public class Application {
         stArr[2] = new Student("강개순", 23, 167.0, 45.0, 4, "정보통신공학과");
 
         for(Student s : stArr) {
-            System.out.println(stArr.toString());
+            System.out.println(s);
 
         }
     }
