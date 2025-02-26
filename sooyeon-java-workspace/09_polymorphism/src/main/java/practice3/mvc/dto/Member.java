@@ -4,23 +4,22 @@ public class Member {
     private String name;
     private int age;
     private char gender;
-    private int couponCount;
+    private int couponCount = 0;
 
     public Member() {
     }
 
-    public Member(String name, int age, char gender, int couponCount) {
+    public Member(String name, int age, char gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
-        this.couponCount = couponCount;
     }
 
-    public boolean isRentalAvailableAge(int minimumAge){
+    public boolean isRentalAvailableAge(int minimumAge) {
         return age >= minimumAge;
     }
 
-    public void updateCouponCount(int newCount){
+    public void updateCouponCount(int newCount) {
         couponCount += newCount;
     }
 

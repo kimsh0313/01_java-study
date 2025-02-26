@@ -23,20 +23,21 @@ public class Practice2 {
 // 각 가게에 대한 정보는 Shop 객체로, 그리고 이런 Shop객체들을 최종적으로 Shop[]에 기록될 수 있도록
 
         // 문자열을 줄 단위로 나누기
-        String[] shopEntries = shopCsv.split("\n");
-        Shop_dto[] shops = new Shop_dto[shopEntries.length];
+        String[] shop1 = shopCsv.split("\n");
+        Shop_dto[] shops = new Shop_dto[shop1.length];
 
         // 각 줄을 파싱하여 Shop_dto 객체 생성
-        for (int i = 0; i < shopEntries.length; i++) {
-            String[] details = shopEntries[i].split(",");
-            int num = Integer.parseInt(details[0]);
-            String name = details[1];
-            String address = details[2];
-            String phoneNum = details[3];
-            String category = details[4];
-            String baseDate = details[5];
-
-            shops[i] = new Shop_dto(num, name, address, phoneNum, category, baseDate);
+        for (int i = 0; i < shop1.length; i++) {
+            String[] details = shop1[i].split(",");
+            shops[i] = new Shop_dto( details[0], details[1], details[2], details[3], details[4], details[5]);
+//            String num = details[0];
+//            String name = details[1];
+//            String address = details[2];
+//            String phoneNum = details[3];
+//            String category = details[4];
+//            String baseDate = details[5];
+//
+//            shops[i] = new Shop_dto(num, name, address, phoneNum, category, baseDate);
         }
 
         // 결과 출력

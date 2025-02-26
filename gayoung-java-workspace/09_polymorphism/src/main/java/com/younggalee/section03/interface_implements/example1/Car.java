@@ -1,6 +1,6 @@
 package com.younggalee.section03.interface_implements.example1;
 
-public class Car {
+public abstract class Car {
 
 
 

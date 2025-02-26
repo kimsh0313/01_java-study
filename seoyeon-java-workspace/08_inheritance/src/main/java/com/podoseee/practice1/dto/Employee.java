@@ -16,10 +16,13 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "salary=" + salary +
-                ", dept='" + dept + '\'' +
-                ", name='" + name + '\'' +
+        return "Student{" +
+                "name=" + super.getName() +
+                ", age='" + super.getAge() + '\'' +
+                ", height='" + super.getHeight() + '\'' +
+                ", weight=" + super.getWeight() + '\'' +
+                ", salary=" + salary + '\'' +
+                ", dept=" + dept +
                 '}';
     }
 }

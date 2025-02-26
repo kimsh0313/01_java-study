@@ -14,6 +14,10 @@ public class Book {
         this.publisher = publisher;
     }
 
+    public boolean isContainKeyword(String keyword) {
+        return title.contains(keyword);
+    }
+
     @Override
     public String toString() {
         return "Book{" +

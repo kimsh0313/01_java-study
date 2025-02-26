@@ -18,18 +18,22 @@ public class Practice2 {
         String[] shops = shopCsv.split("\n");
         Shop[] shopArray = new Shop[shops.length];
 
-        for(int i=0; i<shops.length; i++){
-            String[] shopdata = shops[i].split(",");
+        for(int i=0; i<shops.length; i++){ // shops[i] == "가게번호,상호명,주소,.."
+            String[] shopdata = shops[i].split(","); // {"1", "맘스쿡", ...}
 
+            // 선생님 풀이
+            /*
+                shopArr[i] = new Shop(arr[0], arr[1], arr[3], arr[4], arr[5]);
+             */
             int shopId = Integer.parseInt(shopdata[0]);
             String number = shopdata[0];
             String name = shopdata[1];
             String address = shopdata[2];
             String phone = shopdata[3];
-            String kind = shopdata[4];
+            String category = shopdata[4];
             String date = shopdata[5];
 
-            shopArray[i] = new Shop(number, name, address, phone, kind, date);
+            shopArray[i] = new Shop(number, name, address, phone, category, date);
         }
 
         for (Shop shop : shopArray) {

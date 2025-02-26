@@ -46,3 +46,4 @@ public class Practice2 {
 // 각 가게에 대한 정보는 Shop 객체로, 그리고 이런 Shop객체들을 최종적으로 Shop[]에 기록될 수 있도록
     }
 }
+

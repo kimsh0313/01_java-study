@@ -2,14 +2,14 @@ package com.jun.section02;
 
 public class Shop_dto {
 
-    private int num;
+    private String num;
     private String name;
     private String address;
     private String phoneNum;
     private String category;
     private String baseDate;
 
-    public Shop_dto(int num, String name, String address, String phoneNum, String category, String baseDate) {
+    public Shop_dto(String num, String name, String address, String phoneNum, String category, String baseDate) {
         this.num = num;
         this.name = name;
         this.address = address;
@@ -18,11 +18,11 @@ public class Shop_dto {
         this.baseDate = baseDate;
     }
 
-    public int getNum() {
+    public String getNum() {
         return num;
     }
 
-    public void setNum(int num) {
+    public void setNum(String num) {
         this.num = num;
     }
 

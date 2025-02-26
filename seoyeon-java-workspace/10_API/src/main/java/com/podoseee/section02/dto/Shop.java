@@ -5,17 +5,17 @@ public class Shop {
     private String name;
     private String address;
     private String phone;
-    private String kind;
+    private String category;
     private String date;
 
     public Shop(){}
 
-    public Shop(String number, String name, String address, String phone, String kind, String date) {
+    public Shop(String number, String name, String address, String phone, String category, String date) {
         this.number = number;
         this.name = name;
         this.address = address;
         this.phone = phone;
-        this.kind = kind;
+        this.category = category;
         this.date = date;
     }
 
@@ -43,12 +43,12 @@ public class Shop {
         this.date = date;
     }
 
-    public String getKind() {
-        return kind;
+    public String getCategory() {
+        return category;
     }
 
-    public void setKind(String kind) {
-        this.kind = kind;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public String getPhone() {
@@ -73,7 +73,7 @@ public class Shop {
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", phone='" + phone + '\'' +
-                ", kind='" + kind + '\'' +
+                ", category='" + category + '\'' +
                 ", date='" + date + '\'';
     }
 }

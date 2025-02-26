@@ -32,6 +32,9 @@ public class Practice2 {
                 case 5 : shops[i].setEnrollDay(st_arr[5]); break;
             }
         }
+
+
+        // 강사님은 각각의 6가지 요소를 매개변수 생성자에 넣음.
     }
     for(Shop shop : shops) {
         System.out.println(shop.toString());

@@ -34,5 +34,7 @@ public class Point {
                 ", y=" + y;
     }
 
-    public void draw(){}
+    public void draw(){
+        System.out.println("x좌표 : " + getX() + "y좌표 : " + getY());
+    }
 }

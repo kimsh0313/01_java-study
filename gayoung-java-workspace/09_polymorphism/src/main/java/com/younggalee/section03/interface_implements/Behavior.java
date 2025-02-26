@@ -40,7 +40,6 @@ public interface Behavior {
 Q. 인터페이스에서는 추상메소드만 만들 수 있다고 배웠는데 static과 default 메소드는 뭐야?
 
 전에는 인터페이스에서 추상 메소드만 정의할 수 있었지만, Java 8부터는 static 메소드와 default 메소드도 추가할 수 있게 되었습니다.
-
 1. 추상 메소드 (abstract method) (강제)
 - 구현 클래스에서 반드시 구현(Override)해야 합니다.
 - 인터페이스의 기본 메소드 형태입니다.

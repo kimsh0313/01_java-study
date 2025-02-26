@@ -34,18 +34,17 @@ public class Practice2 {
 
         ShopDTO[] shop = new ShopDTO[shopArr.length];
 
-        for (int i = 0; i < shop.length; i++) {
+//        for (int i = 0; i < shop.length; i++) {
             for (int j = 0; j < shopArr.length; j++) {
 
                 String[] shopInfo = shopArr[j].split(",");
 
                 shop[j] = new ShopDTO(shopInfo[0], shopInfo[1], shopInfo[2], shopInfo[3], shopInfo[4], shopInfo[5]);
             }
-        }
+//        }
         for (ShopDTO arr : shop){
             System.out.println(arr);
         }
-
 
     }
 }
