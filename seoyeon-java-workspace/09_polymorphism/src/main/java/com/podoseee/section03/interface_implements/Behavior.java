@@ -4,6 +4,12 @@ public interface Behavior {
 
     /*
         ## 인터페이스 ##
+        1. interface
+        2. 추상메소드와 상수필드만 가질 수 있는 클래스의 변형체
+        3. 필드 작성시 묵시적으로 상수필드이므로 public static final 생략 가능
+           메소드 작성시 묵시적으로 추상메소드이므로 public abstract 생략 가능
+        4. 인터페이스는 다중 상속이 가능하다.
+        5. 인터페이스는 상속 받을때는 implements 키워드 사용
      */
 
     // 일반필드 선언 불가
